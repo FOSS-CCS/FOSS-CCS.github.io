@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #212625;
+}
+
+#image-viewer {
+  display: flex;
+  width: 80%;
+  margin: 10px 20px;
+}
+
+#main-image-container {
+  flex: wrap;
+  position: relative;
+}
+
+#main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+#thumbnail {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#thumbnail img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.selected {
+  border-color: #4CAF50;
+}
