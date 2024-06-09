@@ -2,12 +2,17 @@ const mainImage = document.getElementById('main-image');
 const thumbnailsContainer = document.getElementById('thumbnail');
 
 let images = [
-  "https://raw.githubusercontent.com/TootiFruti/FOSS-CCS/main/FOSS-CCS%20-%20Arch%20Linux.png",
-  "https://raw.githubusercontent.com/TootiFruti/FOSS-CCS/main/FOSS-CCS%20-%20CHOWN.png",
-  "https://raw.githubusercontent.com/TootiFruti/FOSS-CCS/main/FOSS-CCS%20-%20NMCLI.png",
-  "https://raw.githubusercontent.com/TootiFruti/FOSS-CCS/main/FOSS-CCS%20-%20rm.png",
-  "https://raw.githubusercontent.com/TootiFruti/FOSS-CCS/main/FOSS-CCS%20-%20Neofetch.png",
-  "https://raw.githubusercontent.com/TootiFruti/FOSS-CCS/main/FOSS-CCS%20-%20ROOT.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/Arch-Linux.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/NMCLI.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/Neofetch.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/ROOT.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/chown.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/dwm.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/gnome.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/hyprland.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/kde-plasma.png",
+  "https://raw.githubusercontent.com/FOSS-CCS/FOSS-CCS.github.io/main/cards/rm.png"
+  
 ];
 
 function displayImage(imagePath) {
